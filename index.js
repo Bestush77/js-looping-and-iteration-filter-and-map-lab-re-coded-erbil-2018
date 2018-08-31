@@ -19,3 +19,10 @@ function exactMatch (drivers, compare) {
 function exactMatchToList(driver, compare){
   return exactMatch.map((driver)=>{return driver.name})
 }
+
+function exactMatchToList (drivers, matcher) {
+  return exactMatch(drivers, matcher)
+    .map(function (driver) {
+      return driver.name;
+    });
+}
