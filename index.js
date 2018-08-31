@@ -7,7 +7,9 @@ function driversWithRevenueOver(driver, revenue){
 function driverNamesWithRevenueOver(driver, revenue){
   return driver.filter((driver)=> {
     x={};
-    x toString(driver.revenue > revenue)});
-  return x;
+    x = toString(driver.revenue > revenue)
+    return x;
+  });
+  
   
 }
