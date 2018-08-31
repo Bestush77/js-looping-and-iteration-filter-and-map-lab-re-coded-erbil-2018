@@ -10,6 +10,6 @@ function driverNamesWithRevenueOver(driver, revenue){
 }
 
 function exactMatch(driver, keyValuePair){
-  
+  return matches = false;
   
 }
