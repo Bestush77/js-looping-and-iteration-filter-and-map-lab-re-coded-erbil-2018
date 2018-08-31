@@ -17,5 +17,5 @@ function exactMatch (drivers, compare) {
 }
 
 function exactMatchToList(){
-  return exactMatch.filter(()=>{return driver.name})
+  return exactMatch.filter((driver)=>{return driver.name})
 }
