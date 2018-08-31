@@ -15,3 +15,7 @@ function exactMatch (drivers, compare) {
     return driver[key] === compare[key];
   });
 }
+
+function exactMatchToList(){
+  return exactMatch.filter(()=>{return driver.name})
+}
