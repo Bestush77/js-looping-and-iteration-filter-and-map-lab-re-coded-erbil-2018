@@ -5,7 +5,7 @@ function driversWithRevenueOver(driver, revenue){
 
 // Code your solution here:
 function driverNamesWithRevenueOver(driver, revenue){
-  x.push(river.filter((driver)=> {x={};
+  x.push(river.filter((driver)=> {x=[];
      if (driver.revenue > revenue)
   {return  driver.name}
     
